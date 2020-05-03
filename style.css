@@ -68,8 +68,16 @@ h5 {
     letter-spacing: -0.47px;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .flex-center {
@@ -92,12 +100,25 @@ h5 {
     padding: 120px 0;
 }
 
+.hard-skills {
+    background: #f6f6f6;
+    padding: 120px 0;
+}
+
+.direction-container {
+    width: 265px;
+}
+
 .margin-bottom-big {
     margin-bottom: 61px;
 }
 
 .margin-bottom-medium {
     margin-bottom: 48px;
+}
+
+.margin-top-little {
+    margin-top: 16px;
 }
 
 .margin-horizontal-very-big {
@@ -129,4 +150,26 @@ h5 {
 }
 .code-item:hover svg path {
     fill: #FFF0AE;
+}
+
+.skills-wrapper {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.skills-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-container {
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 255px;
+    height: 251px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
