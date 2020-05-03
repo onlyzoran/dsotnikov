@@ -32,6 +32,14 @@ h1 {
     letter-spacing: -1.78px;
 }
 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: -1.34px;
+    }
+}
+
 h2 {
     font-family: Inter;
     font-style: normal;
@@ -41,6 +49,14 @@ h2 {
     letter-spacing: -1.34px;
 }
 
+@media (max-width: 480px) {
+    h2 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.89px;
+    }
+}
+
 h3 {
     font-family: Inter;
     font-style: normal;
@@ -48,6 +64,14 @@ h3 {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.89px;
+}
+
+@media (max-width: 480px) {
+    h3 {
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: -0.64px;
+    }
 }
 
 h4 {
@@ -83,6 +107,7 @@ h5 {
 .flex-center {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -90,9 +115,21 @@ h5 {
     padding: 120px 0;
 }
 
+@media (max-width: 480px) {
+    .main {
+        padding: 70px 0;
+    }
+}
+
 .contacts {
     background: #f6f6f6;
     padding: 120px 0;
+}
+
+@media (max-width: 480px) {
+    .contacts {
+        padding: 70px 0;
+    }
 }
 
 .code {
@@ -100,9 +137,21 @@ h5 {
     padding: 120px 0;
 }
 
+@media (max-width: 480px) {
+    .code {
+        padding: 70px 0;
+    }
+}
+
 .hard-skills {
     background: #f6f6f6;
     padding: 120px 0;
+}
+
+@media (max-width: 480px) {
+    .hard-skills {
+        padding: 70px 0;
+    }
 }
 
 .direction-container {
@@ -117,6 +166,12 @@ h5 {
     margin-bottom: 48px;
 }
 
+@media (max-width: 480px) {
+    .margin-bottom-mobile-medium {
+        margin-bottom: 48px;
+    }
+}
+
 .margin-top-little {
     margin-top: 16px;
 }
@@ -125,8 +180,20 @@ h5 {
     margin: 0 120px;
 }
 
+@media (max-width: 480px) {
+    .margin-horizontal-very-big {
+        margin: 0;
+    }
+}
+
 .margin-horizontal-big {
     margin: 0 80px;
+}
+
+@media (max-width: 480px) {
+    .margin-horizontal-big {
+        margin: 0;
+    }
 }
 
 .contact {
@@ -143,6 +210,7 @@ h5 {
     justify-content: space-between;
     max-width: 508px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .code-item:hover h4 {
@@ -163,6 +231,13 @@ h5 {
     flex-wrap: wrap;
 }
 
+@media (max-width: 480px) {
+    .skills-inner {
+        justify-content: center;
+        padding: 0 15px;
+    }
+}
+
 .skill-container {
     background: #FFFFFF;
     border-radius: 12px;
@@ -172,4 +247,10 @@ h5 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width: 480px) {
+    .text-mobile-center {
+        text-align: center;
+    }
 }
